@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
+  "notes": "",
+  "version": 1,
   "keyboard": "mechboards/lily58/pro",
   "keymap": "lily_ferris",
   "layout": "LAYOUT",
@@ -63,8 +63,8 @@
       "KC_BSPC",
       "KC_SPC",
       "KC_ENT",
-      "MO(2)",
-      "MO(3)"
+      "KC_RALT",
+      "KC_BSLS"
     ],
     [
       "KC_TRNS",
@@ -101,7 +101,7 @@
       "KC_DOWN",
       "KC_UP",
       "KC_RGHT",
-      "KC_PMNS",
+      "KC_MINS",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
