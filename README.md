@@ -7,4 +7,5 @@
 #### lily example:  
 `qmk compile -kb mechboards/lily58/pro -km lilyFerris -e CONVERT_TO=RP2040_ce`  
 keyboard path: `qmk_firmware/keyboards/mechboards/lily58/pro`  
-keymap path: `qmk_firmware/keyboards/mechboards/lily58/pro/keymaps`
+keymap path: `qmk_firmware/keyboards/mechboards/lily58/pro/keymaps`  
+(c-file must be named keymap.c in order to compile)
